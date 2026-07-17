@@ -1,0 +1,100 @@
+hero:
+  h1: "Hurricane Shutters in Port Charlotte, FL — Compare Free Quotes From Local Installers"
+  subtitle: "Get matched with licensed local hurricane shutter installers serving Port Charlotte, Charlotte Harbor, and surrounding Charlotte County. Free, no-obligation estimates on storm panels, accordion, and roll-down shutters — built for Charlotte County's post-Ian wind zone."
+  reassurance: "✓ 100% free, no obligation &nbsp; ✓ Licensed local installers only &nbsp; ✓ Your info is never sold to unrelated third parties"
+
+trustbar: "Free matching service · Licensed &amp; insured local installers · Serving Port Charlotte &amp; Charlotte County"
+
+steps:
+  title: "How it works: from request to quote in 3 steps"
+  items:
+    - title: "1. Tell us about your project"
+      text: "Fill out the short form: ZIP code, shutter type you're considering, and a bit about your home. The more complete your request, the more accurate the quotes you'll receive."
+    - title: "2. Get connected with local installers"
+      text: "We match your request with licensed hurricane shutter installers who work in the Port Charlotte area. They'll typically reach out within 24 hours to schedule a free, in-home estimate."
+    - title: "3. Compare and decide — no pressure"
+      text: "Compare pricing, shutter types, and timelines at your own pace. There's no obligation to hire anyone, and no cost to you at any point."
+  transparency: "Port Charlotte Hurricane Shutters is an independent referral service. We do not manufacture or install shutters ourselves — we connect homeowners, free of charge, with licensed local hurricane shutter installers. The service is funded by the participating installers, never by you."
+
+cost:
+  title: "What do hurricane shutters cost in Port Charlotte?"
+  intro: "Pricing depends mainly on shutter type (storm panel, accordion, roll-down/motorized, or colonial/Bahama), opening size, and how many openings need coverage. Approximate national market ranges, installed:"
+  rows:
+    - type: "Storm panels (aluminum or polycarbonate)"
+      size: "per opening, installed"
+      price: "$150 – $400"
+    - type: "Accordion shutters"
+      size: "per opening, installed"
+      price: "$700 – $2,500"
+    - type: "Roll-down (motorized) shutters"
+      size: "per opening, installed"
+      price: "$2,500 – $5,500"
+    - type: "Whole-home accordion shutter package"
+      size: "10–15 openings, single-story"
+      price: "$8,000 – $20,000"
+  note: "These are approximate national market ranges, not a quote for your specific home. Actual pricing in the Port Charlotte area depends on your home's opening sizes and count, shutter type, wall material (masonry vs. frame), and current Florida Building Code wind-load requirements for your exact address — Charlotte County's design wind speeds sit at or above the state's 140 mph Wind-Borne Debris Region threshold across nearly the whole county, higher near Charlotte Harbor. Ask each installer whether your project may qualify for a My Safe Florida Home grant (up to $10,000) and for a wind mitigation insurance discount once the work is permitted and inspected — both can meaningfully offset the upfront cost, which matters even more in a market still working through post-Hurricane Ian insurance premiums. Comparing multiple quotes is the best way to see the real range for your home."
+  cta: "Compare free quotes and see your real numbers →"
+
+benefits:
+  title: "Why hurricane shutters are one of the highest-value upgrades in Port Charlotte"
+  items:
+    - title: "Code-required storm protection"
+      text: "All of Charlotte County sits inside the Florida Building Code's Wind-Borne Debris Region — every exterior opening on a home needs impact protection, by code, whether that's code-compliant shutters or impact glass."
+    - title: "The lowest-cost way to meet code"
+      text: "Compared to whole-home impact window replacement, shutters are typically the most budget-friendly way to bring every opening on a home into compliance — a meaningful factor for the many Port Charlotte homes still rebuilding or repairing after Hurricane Ian."
+    - title: "Potential insurance savings"
+      text: "Permitted, code-compliant shutters on every opening can qualify for the largest single credit on Florida's wind mitigation inspection form — ask your insurer how a completed wind mitigation report could affect your windstorm premium, especially relevant given post-Ian rate pressure in Charlotte County."
+    - title: "May qualify for state grant assistance"
+      text: "Eligible homeowners may qualify for a My Safe Florida Home grant of up to $10,000 toward hurricane shutters — ask your installer to help you check eligibility."
+
+social:
+  title: "What Port Charlotte homeowners are asking about since Hurricane Ian"
+  text: "Hurricane Ian made landfall just minutes from Port Charlotte on September 28, 2022 — first on Cayo Costa at 150 mph, then again near Pirate Harbor inside Charlotte Harbor at 145 mph — destroying more than 200 homes in Charlotte County and causing widespread window and sliding-door failures from wind-borne debris, even on homes whose roofs held. Since then, opening protection has moved from a 'someday' project to a near-term priority for many Port Charlotte homeowners, especially those now navigating stricter permitting and insurance underwriting on repaired or rebuilt homes. The most common reason homeowners request quotes isn't damage from the next storm yet to come — it's wanting permitted, insurance-friendly opening protection in place before the next season."
+
+local:
+  title: "Hurricane shutters in Port Charlotte: what local conditions mean for your project"
+  intro: "Charlotte County took one of the most direct hurricane hits of any Florida county in decades when Ian made landfall practically on top of Port Charlotte in 2022, and the county's wind-load requirements and rebuilding rules reflect that. Here's what that means in practice for a hurricane shutter project."
+  points:
+    - title: "Every opening must be protected"
+      text: "Charlotte County sits inside the Florida Building Code's Wind-Borne Debris Region, with design wind speeds at or above the state's 140 mph threshold across nearly the entire county — higher near Charlotte Harbor. Florida Building Code Section 1609.5.2 requires impact-rated glazing or code-compliant shutters on every exterior opening — there's no partial-compliance option for a full storm-hardening project."
+    - title: "Permits are required, and matter later"
+      text: "Charlotte County requires a Window/Door/Shutters permit for shutter installation, with the complete Florida Product Approval or Miami-Dade NOA number for the exact product submitted as part of the application. A licensed local installer typically handles this as part of the job — unpermitted shutters won't qualify for the insurance discount below, and Charlotte County requires unpermitted shutters or plywood coverings to come down within 30 days of the end of hurricane season (November 30) each year."
+    - title: "Hurricane Ian changed the calculus"
+      text: "Ian's September 2022 landfall near Pirate Harbor — essentially at Port Charlotte's front door — brought sustained winds of 145 mph and destroyed more than 200 homes countywide, with window and door failures a major driver of interior damage even where roofs held. Many Port Charlotte homeowners rebuilding or repairing since then are prioritizing full opening protection rather than treating it as optional."
+    - title: "My Safe Florida Home grant"
+      text: "Eligible Florida homeowners (income-qualified, homestead exemption, home permitted before 2008, insured value under $700,000) may qualify for a state grant of up to $10,000 toward hurricane shutters and other hardening work — this is a statewide program, not unique to Port Charlotte, so ask your installer to help confirm eligibility."
+    - title: "Insurance credit is all-or-nothing"
+      text: "On Florida's wind mitigation inspection form, the opening-protection credit only applies if every opening on the home is protected — a home with shutters on most, but not all, openings gets no credit in that category. Worth planning the full scope with your installer rather than doing it opening by opening, particularly given how much scrutiny Charlotte County properties get from insurers post-Ian."
+  outro: "Not sure what applies to your specific property, or whether your home's post-Ian repair history affects your permit path? The installers who provide your quotes work in the Port Charlotte area every day and can walk you through the permit, code, and insurance specifics for your exact address."
+  sources:
+    - label: "Charlotte County — Residential Shutters permit info"
+      url: "https://www.charlottecountyfl.gov/departments/community-development/building-construction/permits/residential-permits/residential-shutters.stml"
+    - label: "My Safe Florida Home — official program site"
+      url: "https://mysafeflhome.com/"
+    - label: "Florida DFS — Premium Discounts for Hurricane Loss Mitigation (consumer guide)"
+      url: "https://www.myfloridacfo.com/docs-sf/consumer-services-libraries/consumerservices-documents/understanding-coverage/consumer-guides/premium-discounts-for-hurricane-loss-mitigation.pdf"
+    - label: "NOAA/NHC — Hurricane Ian Tropical Cyclone Report"
+      url: "https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf"
+
+faq:
+  title: "Frequently asked questions"
+  items:
+    - q: "Is this service really free?"
+      a: "Yes. You never pay anything for the quotes or the matching service. We're compensated by the participating installers when we send them a qualified request — that has no effect on the price you're quoted."
+    - q: "Am I obligated to hire anyone?"
+      a: "No. The quotes you receive are completely no-obligation. You decide whether, when, and with which installer to move forward, or with none at all."
+    - q: "Do I need a permit to install hurricane shutters in Charlotte County?"
+      a: "Yes — Charlotte County requires a Window/Door/Shutters permit for shutter installation regardless of type (panel, fabric, accordion, or roll-down), with the complete Florida Product Approval or Miami-Dade NOA number for the installed product. A licensed local installer will typically handle this as part of the project. Confirm the specifics for your address with the installer and, if needed, Charlotte County Community Development directly."
+    - q: "Are you a shutter installer or manufacturer?"
+      a: "No. Port Charlotte Hurricane Shutters is an independent referral service — we connect you with licensed local installers who sell and install hurricane shutters. We don't perform installation work ourselves."
+    - q: "Could I qualify for the My Safe Florida Home grant?"
+      a: "Possibly — the program offers up to $10,000 toward hardening work for eligible income-qualified homeowners with a homestead exemption. Eligibility rules can change between funding cycles, so ask your installer to help you check current status, or visit the official My Safe Florida Home site."
+    - q: "What happens to my information?"
+      a: "Your information is shared only with the installers who prepare your quote, and is never sold to unrelated third parties. See our privacy policy for full details, including how we use consent and communication technology."
+    - q: "How long does a hurricane shutter project typically take?"
+      a: "Expect roughly 1-2 weeks between your first quote and a scheduled start, depending on installer availability and permit processing (Charlotte County's published residential review time is 7-9 business days), and typically 1-2 days of on-site installation for a whole-home accordion or roll-down package, depending on the number of openings."
+
+finalcta:
+  title: "Ready to compare quotes?"
+  text: "Request your free, no-obligation hurricane shutter quotes for your Port Charlotte home today. Licensed local installers typically respond within 24 hours."
+  btn: "Get my free quotes →"

@@ -1,0 +1,78 @@
+baseURL = "https://portcharlottehurricaneshutters.com/"
+languageCode = "en-US"
+title = "Port Charlotte Hurricane Shutters"
+theme = "airspace-hugo"
+pagination.pagerSize = "6"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "RSS"]
+copyright = "Port Charlotte Hurricane Shutters. All rights reserved."
+
+[params]
+  description = "Compare licensed hurricane shutter installers in Port Charlotte, FL. Free, no-obligation estimates for storm panels, accordion, and roll-down shutters. My Safe Florida Home program guidance included."
+  leadFormAction = "/api/submit"
+  themeColor = "#0c3b5c"
+  brandName = "Port Charlotte Hurricane Shutters"
+  favicon = ""
+
+  [params.variables]
+    color_primary = "#0c3b5c"
+    body_color = "#ffffff"
+    text_color = "#3a3a3a"
+    text_dark = "#1d1d1d"
+    text_light = "#6b6b6b"
+    border_color = "#ACB9C4"
+    black = "#000000"
+    white = "#ffffff"
+    light = "#f5f7f9"
+    font_size = "16px"
+    font_scale = "1.25"
+    font_primary = "Roboto:wght@300;400;500;700"
+    font_primary_type = "sans-serif"
+    font_secondary = "Roboto:wght@700"
+    font_secondary_type = "sans-serif"
+    font_icon = "Font Awesome 5 Free"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Cost"
+  url = "/hurricane-shutters-cost/"
+  weight = 2
+
+[[menu.main]]
+  name = "My Safe Florida Home"
+  url = "/my-safe-florida-home-program/"
+  weight = 3
+
+[[menu.main]]
+  name = "Shutters vs. Impact Windows"
+  url = "/hurricane-shutters-vs-impact-windows/"
+  weight = 4
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 6
+
+[[menu.footer]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.footer]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 2
+
+[[menu.footer]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3

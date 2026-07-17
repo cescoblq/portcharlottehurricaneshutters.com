@@ -1,0 +1,69 @@
+/* Port Charlotte Hurricane Shutters — site-level styles on top of Bootstrap 5 + Font Awesome. */
+
+:root {
+  --brand: #0c3b5c;
+  --brand-dark: #082943;
+  --accent: #2e8b57;
+}
+
+body { color: #3a3a3a; }
+
+.site-navbar { border-bottom: 1px solid #e7e7e7; }
+.site-navbar .navbar-brand { font-weight: 700; color: var(--brand); }
+.site-navbar .nav-link { font-weight: 500; }
+
+.lead-hero {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  color: #fff;
+  padding: 3.5rem 0 2rem;
+}
+.lead-hero h1 { font-weight: 700; font-size: 2.1rem; }
+.lead-hero .lead-subtitle { font-size: 1.05rem; opacity: 0.92; }
+.lead-hero .lead-reassurance { margin-top: 1.5rem; font-size: 0.95rem; opacity: 0.9; }
+
+.trust-bar { background: #f0f4f7; padding: 0.6rem 0; text-align: center; font-size: 0.9rem; color: #555; }
+
+section { padding: 3rem 0; }
+section h2 { font-weight: 700; margin-bottom: 1.2rem; color: var(--brand-dark); }
+
+.lead-form { background: #fff; color: #333; border-radius: 8px; padding: 1.5rem; box-shadow: 0 6px 24px rgba(0,0,0,0.15); }
+.lead-form label { display: block; margin-bottom: 0.9rem; font-size: 0.9rem; font-weight: 600; }
+.lead-form .btn { width: 100%; margin-top: 0.5rem; background: var(--accent); border-color: var(--accent); }
+.lead-form .btn:hover { background: #256e46; border-color: #256e46; }
+.lead-form-consent { font-weight: 400; font-size: 0.8rem; display: flex; gap: 0.5rem; align-items: flex-start; }
+.lead-form-consent input { margin-top: 0.2rem; }
+.lead-form-privacy { font-size: 0.78rem; color: #666; margin-top: 0.8rem; }
+.cf-turnstile { margin: 1rem 0; }
+
+.lead-steps h4 { color: var(--brand-dark); }
+.lead-transparency { font-size: 0.9rem; color: #666; margin-top: 1.5rem; }
+
+.lead-cost-table th { background: var(--brand); color: #fff; }
+.lead-cta-btn, .btn-primary { background: var(--accent); border-color: var(--accent); }
+.lead-cta-btn:hover { background: #256e46; border-color: #256e46; }
+.lead-cost-note { font-size: 0.9rem; color: #555; margin: 1rem 0; }
+
+.lead-benefits-img { max-width: 100%; border-radius: 8px; }
+.lead-social { background: #f7f9fb; }
+
+.lead-faq-item { border-bottom: 1px solid #e7e7e7; padding: 1rem 0; }
+.lead-faq-item h4 { font-size: 1.05rem; color: var(--brand-dark); }
+
+.lead-finalcta { background: var(--brand-dark); color: #fff; text-align: center; }
+.lead-finalcta h2 { color: #fff; }
+.lead-finalcta .lead-form { max-width: 480px; margin: 1.5rem auto 0; text-align: left; }
+
+.lead-local-sources { font-size: 0.8rem; color: #777; }
+.lead-local-points li { margin-bottom: 0.6rem; }
+
+.page-header { background: #f0f4f7; padding: 2rem 0; }
+.single-sidebar { background: #f7f9fb; border-radius: 8px; padding: 1.2rem; }
+.single-sidebar-title { margin-bottom: 1rem; }
+
+.site-footer { background: #14202b; color: #cfd8de; padding: 3rem 0 1.5rem; margin-top: 2rem; }
+.site-footer h5, .site-footer h3 { color: #fff; font-size: 1.05rem; }
+.footer-link-list { list-style: none; padding: 0; }
+.footer-link-list a { color: #cfd8de; text-decoration: none; }
+.footer-link-list a:hover { color: #fff; }
+.footer-disclaimer { font-size: 0.78rem; color: #93a0a9; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); margin-top: 1.5rem; padding-top: 1rem; font-size: 0.85rem; }

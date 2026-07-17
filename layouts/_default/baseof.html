@@ -1,0 +1,88 @@
+{{/*
+  Site-level baseof.html for the airspace-hugo theme.
+  The theme's own baseof.html/style.html/script.html pipe everything through
+  resources.Get "scss/style.scss" + a long list of JS plugins (slick, shuffle,
+  gmap, webfont-loader) meant for a portfolio/agency site — none of that is
+  needed for a single-page lead-gen site, so this site ships its own baseof.html
+  that:
+    - loads only Bootstrap + Font Awesome as plain static CSS/JS (copied into
+      static/plugins/, no Hugo asset pipeline dependency, so no Sass build risk)
+    - adds a Content-Security-Policy meta tag that allows Cloudflare Turnstile +
+      ActiveProspect TrustedForm (same pattern as the other US network sites)
+    - adds hand-written WebSite + Service (+ home-only FAQPage) JSON-LD.
+      CDC rule: no LocalBusiness schema anywhere on this site (no verifiable
+      physical business address for a lead-referral site).
+*/}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://api.trustedform.com https://cdn.trustedform.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; img-src 'self' data:; object-src 'none'; base-uri 'none'">
+
+  <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+  {{ partial "meta.html" . }}
+
+  <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "plugins/font-awesome/fontawesome.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "plugins/font-awesome/solid.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "plugins/font-awesome/brands.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+
+  <!-- Cloudflare Turnstile (anti-bot on the lead form). Widget itself is rendered in partials/lead-form.html -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ .Site.Title | jsonify | safeJS }},
+    "url": {{ .Site.BaseURL | jsonify | safeJS }}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Hurricane shutter installer referral / free quote matching",
+    "provider": {
+      "@type": "Organization",
+      "name": {{ .Site.Title | jsonify | safeJS }}
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Port Charlotte, FL"
+    },
+    "description": {{ .Site.Params.description | jsonify | safeJS }}
+  }
+  </script>
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $item := .Site.Data.lead.faq.items }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": {{ $item.q | jsonify | safeJS }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ $item.a | jsonify | safeJS }}
+        }
+      }
+      {{ end }}
+    ]
+  }
+  </script>
+  {{ end }}
+</head>
+<body>
+  {{ block "main" . }}{{ end }}
+
+  <script src="{{ "plugins/jquery/jquery.min.js" | relURL }}"></script>
+  <script src="{{ "plugins/bootstrap/bootstrap.min.js" | relURL }}"></script>
+</body>
+</html>
