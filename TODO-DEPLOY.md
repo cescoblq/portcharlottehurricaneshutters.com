@@ -23,7 +23,7 @@ Everything below is what's still missing before this can actually receive and pa
 - Budget ~$0.30-0.55/lead once active (see same source).
 
 ## 3. n8n webhook
-- Webhook `niches-leads-hurricane-shutters-portcharlotte-us` does **not exist yet** in n8n (byteblast VPS). Create it, matching the field names sent by `functions/api/submit.js` → the lead form.
+- Webhook `niches-leads-hurricane-shutters-us` does **not exist yet** in n8n (byteblast VPS). Create it, matching the field names sent by `functions/api/submit.js` → the lead form.
 - Route to the same Google Sheet pattern used by other niches (1 tab per niche) or a new tab — François's call.
 
 ## 4. DNS + hosting
