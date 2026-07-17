@@ -47,3 +47,6 @@ Per `recherche/53-carto-debouches-usa.md`: no acheteur a confirmé publiquement 
 
 ## 9. Scope discipline vs. venicehurricaneshutters.com
 - This site is deliberately Port Charlotte/Charlotte County-anchored (hurricane shutters only, no impact-windows promotion — local search volume for impact windows is near-zero here). It does not duplicate or overlap venicehurricaneshutters.com's Venice/Sarasota County content or angle; keep it that way in any future content edits.
+
+## 10. ⚠️ Hébergement OBLIGATOIREMENT différent du site frère (thème dupliqué)
+Ce site partage le même thème (`airspace-hugo`) que `fortmyershurricaneshutters.com` — duplicata non résolu, accepté par François le 17/07 à condition que les deux sites soient déployés sur des plateformes d'hébergement statique différentes (ex. Cloudflare Pages vs Netlify) pour limiter le fingerprint. **Ne pas déployer ce site et Fort Myers shutters sur la même plateforme.** Voir `~/workspace/knowledge/hugo markdown.md` (§ hébergeurs en rotation) pour la liste des 8 plateformes.
