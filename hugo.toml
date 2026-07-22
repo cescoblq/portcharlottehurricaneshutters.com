@@ -1,6 +1,6 @@
 baseURL = "https://portcharlottehurricaneshutters.com/"
 languageCode = "en-US"
-title = "Port Charlotte Hurricane Shutters"
+title = "Port Charlotte Hurricane Shutters — Compare Free Quotes"
 theme = "airspace-hugo"
 pagination.pagerSize = "6"
 enableRobotsTXT = true

@@ -13,7 +13,7 @@ body { color: #3a3a3a; }
 .site-navbar .nav-link { font-weight: 500; }
 
 .lead-hero {
-  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  background: linear-gradient(135deg, rgba(12,59,92,.88) 0%, rgba(8,41,67,.82) 100%), url('/images/lead/hurricane-shutters-install.jpg') center/cover no-repeat;
   color: #fff;
   padding: 3.5rem 0 2rem;
 }
